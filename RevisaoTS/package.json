@@ -1,0 +1,12 @@
+{
+  "name": "revisaots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "revisao.js",
+  "scripts": {
+    "start": "npx tsc && node ./build/revisao.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
