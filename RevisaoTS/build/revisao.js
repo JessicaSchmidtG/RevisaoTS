@@ -1,3 +1,4 @@
 "use strict";
-console.log("testeeeeee");
+let text = "olá, tudo bem?";
+console.log(text);
 //# sourceMappingURL=revisao.js.map
