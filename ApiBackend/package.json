@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^2.0.22"
+  },
+  "name": "apibackend",
+  "description": "npm init -y\r # Abrir pasta\r cd + nome da pasta\r # criar arquivo \r nano + nome_do-arquivo.tipo_do_arquivo\r # salvar arquivo\r ctrl + o\r # sair\r ctrl + x\r # instalar express\r npm i express\r # instalar pacote mysql\r npm i mysql2\r # instalar nodeon\r npm i nodemon -D\r # instalar dotenv\r npm i dotenv\r # Para não subir arquivos para o github (git ignore)\r na raiz da pasta cria novo arquivo .gitignore\r passa o caminho do arquivo que não quer que ele não suba pro github (backend/node_modules)\r # configurar eslint\r npx eslint --init\r -seleciona ultima opção\r -CommonJS\r -None of these\r -No\r -Node\r -use a popular style guide\r -Standard:\r -JSON\r -yes\r -npm\r (criou arquivo .eslintrc.json na pasta raiz)\r # cria nova pasta com nome src dentro da pasta backend(onde esta a pasta de arquivos a serem ignorados)\r dentro da pasta src cria um arquivo com nome index.js\r # instanciar a variavel express\r const express = require(\"express\");\r const app = express();\r app.listen(3333, () => console.log('Running on port 3333'));",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./backend/src/server.js",
+    "dev": "nodemon ./backend/src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
